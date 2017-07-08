@@ -1,0 +1,151 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>AMEXBTC: About Us</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- global stylesheet -->
+    <link href="~/SiteAssets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/icommon.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="~/SiteAssets/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="~/SiteAssets/js/bootstrap.min.js"></script>
+    <script src="~/SiteAssets/js/jquery-latest.min.js"></script>
+    <script src="~/SiteAssets/js/script.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- header part -->
+    <header class="bg-inner">
+        <!-- logo/meu part -->
+        <div class="container">
+            <div class="logo-pt">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <h1><span>AMEX</span>BTC</h1>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <!--menu main-->
+                        <div id='cssmenu'>
+                            <ul>
+                                <li><a href='@Url.Action("Index","Home")'>Home</a></li>
+                                <li><a href='@Url.Action("AboutUs","Home")'>About Us</a></li>
+                                <li><a href='@Url.Action("Opportunity","Home")'>Opportunity</a></li>
+                                <li><a href='@Url.Action("ContactUs","Home")'>Contact Us</a></li>
+                                <li><a href='@Url.Action("Registration","Home")'>Registration</a></li>
+                                <li><a href='@Url.Action("Login","Home")'>Login</a></li>
+                            </ul>
+                        </div>
+                        <!--end menu main-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- heading part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <h3>About Us</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- welcome part -->
+    <section class="inner-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <img src="~/SiteAssets/images/About-Image.jpg" alt="about us" class="img-responsive">
+                    <p>Amexbtc is an education platform that provides information about the latest technology trends and helps link the cryptocurrency community together, emphasizing carbon offset.</p>
+                    <p>The platform has been made by individuals, who are interested in new generation technologies and future finances, to avoid third party intervention and high transaction fees. Our team of professionals and experts have developed a platform that allows users to experience the benefits of cryptocurrencies. WexPlanet users can transfer funds among members as well as buy and sell coins on the exchange. We support the development of best-in-class professional practices in the cryptocurrency economy.</p>
+                    <p>Amexbtc was originally started as an environment focussed cryptocurrency. This is how we stand out of the rest of cryptocurrencies. According to this Amexbtc can be called a type of carbon coin. Every transaction with Amexbtc creates revenue that goes to either purchasing Carbon Credits or helping replantation initiatives around the world. With us, you will get to help the environment while growing your business and improving your lifestyle. Living and working at WexPlanet will give you opportunity to achieve sustainability in your business environment. Moreover, by working together, we make it easy, attractive and affordable for people everywhere to lead completely sustainable lifestyles.</p>
+                    <p>Our main objective is to spread knowledge about cryptocurrency and Blockchain technologies at the same time taking care for environmental sustainability. We bring together the newest technologies and business leaders to shape the future of finance. At every opportunity, we highlight the potential of the cryptocurrency as a new means of changing the way we interact with industries and the society. We help to connect with key players and offer opportunities to create new business relationships.</p>
+                    <p>We are bringing cryptocurrency into the real world!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end welcome part -->
+    <!-- join part -->
+    <section class="login-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 text-center">
+                    <h1>Bringing cryptocurrency to the real world</h1>
+                    <p><a href='@Url.Action("Registration","Home")' class="btn btn-default">Join For Free</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="foot-pnl">
+                        <h3>POLICIES</h3>
+                        <ul>
+                            <li><a href="TermsAndConditions.html">Terms and Conditions</a></li>
+                            <li><a href="CompensationPlan.html">Compensation Plan</a></li>
+                            <li><a href="CookiePolicy.html">Cookie Policy</a></li>
+                            <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <form id="form7" name="form7" method="post" action="send-email/" enctype="multipart/form-data">
+                        <div class="col-sm-6">
+                            <input name="tbName" type="text" id="tbName" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbPhone" type="text" required="" pattern="[0-9]+" title="Only Number is Allowed.." id="tbPhone" placeholder="Phone No" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbEmail" type="email" id="tbEmail" placeholder="Email ID" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Subject" class="form-control">
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea cols="5" rows="3" type="text" name="tbMessage" id="tbMessage" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-2 col-sm-offset-1 col-md-offset-1">
+                    <div class="foot-pnl">
+                        <h2>PAYMENT METHOD</h2>
+                        <p><img src="~/SiteAssets/images/payment.png" alt="payment" class="img-responsive"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- copyright part -->
+    <section class="copyright">
+        Copyright © 2017, All Rights Reserved By Amexbtc.
+    </section>
+
+
+
+</body>
+</html>

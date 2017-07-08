@@ -1,0 +1,159 @@
+﻿@{ 
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>AMEXBTC: About Us</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- global stylesheet -->
+    <link href="~/SiteAssets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/icommon.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="~/SiteAssets/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="~/SiteAssets/js/bootstrap.min.js"></script>
+    <script src="~/SiteAssets/js/jquery-latest.min.js"></script>
+    <script src="~/SiteAssets/js/script.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- header part -->
+    <header class="bg-inner">
+        <!-- logo/meu part -->
+        <div class="container">
+            <div class="logo-pt">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <h1><span>AMEX</span>BTC</h1>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <!--menu main-->
+                        <div id='cssmenu'>
+                            <ul>
+                                <li><a href='@Url.Action("Index","Home")'>Home</a></li>
+                                <li><a href='@Url.Action("AboutUs","Home")'>About Us</a></li>
+                                <li><a href='@Url.Action("Opportunity","Home")'>Opportunity</a></li>
+                                <li><a href='@Url.Action("ContactUs","Home")'>Contact Us</a></li>
+                                <li><a href='@Url.Action("Registration","Home")'>Registration</a></li>
+                                <li><a href='@Url.Action("Login","Home")'>Login</a></li>
+                            </ul>
+                        </div>
+                        <!--end menu main-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- heading part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <h3>Referrer Details</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- welcome part -->
+    <section class="welcome-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
+                    <div class="registration">
+                        <div class="row">
+                            <div class="co-xs-12 text-center margin-b-20">
+                                <img src="~/SiteAssets/images/user.png" alt="">
+                            </div>
+                            <div class="col-xs-12 margin-b-10">
+                                <input type="text" name="" class="form-control" placeholder="Referrer Username">
+                            </div>
+                            <div class="col-xs-12 margin-b-10">
+                                <button class="btn btn-info btn-block" type="submit">Set referrer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end welcome part -->
+    <!-- join part -->
+    <section class="login-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 text-center">
+                    <h1>Bringing cryptocurrency to the real world</h1>
+                    <p><a href="login.html" class="btn btn-default">Join For Free</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="foot-pnl">
+                        <h3>POLICIES</h3>
+                        <ul>
+                            <li><a href="TermsAndConditions.html">Terms and Conditions</a></li>
+                            <li><a href="CompensationPlan.html">Compensation Plan</a></li>
+                            <li><a href="CookiePolicy.html">Cookie Policy</a></li>
+                            <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <form id="form7" name="form7" method="post" action="send-email/" enctype="multipart/form-data">
+                        <div class="col-sm-6">
+                            <input name="tbName" type="text" id="tbName" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbPhone" type="text" required="" pattern="[0-9]+" title="Only Number is Allowed.." id="tbPhone" placeholder="Phone No" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbEmail" type="email" id="tbEmail" placeholder="Email ID" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Subject" class="form-control">
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea cols="5" rows="3" type="text" name="tbMessage" id="tbMessage" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-2 col-sm-offset-1 col-md-offset-1">
+                    <div class="foot-pnl">
+                        <h2>PAYMENT METHOD</h2>
+                        <p><img src="~/SiteAssets/images/payment.png" alt="payment" class="img-responsive"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- copyright part -->
+    <section class="copyright">
+        Copyright © 2017, All Rights Reserved By Amexbtc.
+    </section>
+
+
+
+</body>
+</html>
+
