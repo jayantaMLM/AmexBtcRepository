@@ -16,13 +16,13 @@ namespace BtcProApp
             routes.MapRoute(
                name: "Default1",
                url: "{id}",
-               defaults: new { controller = "Home", action = "IndexMain", id = UrlParameter.Optional }
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
            );
 
             routes.MapRoute(
                name: "Default",
                url: "{controller}/{action}/{id}",
-               defaults: new { controller = "Home", action = "IndexMain", id = UrlParameter.Optional }
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
            );
 
            

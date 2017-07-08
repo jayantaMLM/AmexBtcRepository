@@ -15,55 +15,81 @@ namespace BtcProApp.Controllers
         private BtcProDB db = new BtcProDB();
 
         [AllowAnonymous]
-        public ActionResult IndexMain(string id)
-        {
-            ViewBag.Username = id;
+        //public ActionResult IndexMain(string id)
+        //{
+        //    ViewBag.Username = id;
 
-            if (id != null)
-            {
-                var mem = db.Members.SingleOrDefault(m => m.Username.ToUpper() == id.ToUpper());
-                if (mem == null)
-                {
-                    return View("_SponsorError");
-                }
-                else
-                {
-                    return View();
-                }
-            }
-            else
-            {
-                return View();
-            }
+        //    if (id != null)
+        //    {
+        //        var mem = db.Members.SingleOrDefault(m => m.Username.ToUpper() == id.ToUpper());
+        //        if (mem == null)
+        //        {
+        //            return View("_SponsorError");
+        //        }
+        //        else
+        //        {
+        //            return View();
+        //        }
+        //    }
+        //    else
+        //    {
+        //        return View();
+        //    }
 
-        }
+        //}
         //public ActionResult IndexMain()
         //{
         //    return View();
         //}
         public ActionResult Index()
         {
-            string user = User.Identity.Name;
-            string homeCountryCode = db.Registrations.Where(r => r.UserName == user).Select(r => r.CountryCode).Single();
-            if (homeCountryCode == "") { homeCountryCode = "BD"; }
-            string homeCountryName = db.Countries.Where(c => c.CountryId == homeCountryCode).Select(c => c.CountryName).Single();
-            ViewBag.ImagePath = Url.Content("~/images/flags/" + homeCountryName + ".png");
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AboutUs()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult ContactUs()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
+
+        public ActionResult Opportunity()
+        {
+            return View();
+        }
+
+        public ActionResult Registration()
+        {
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        public ActionResult TermsAndConditions()
+        {
+            return View();
+        }
+
+        public ActionResult Compensation()
+        {
+            return View();
+        }
+        public ActionResult CookiePolicy()
+        {
+            return View();
+        }
+
+        public ActionResult PrivacyPolicy()
+        {
+            return View();
+        }
+
         public ActionResult TeamMembers()
         {
             ViewBag.Name = User.Identity.Name;
