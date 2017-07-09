@@ -96,6 +96,11 @@ namespace BtcProApp.Controllers
             return View();
         }
 
+        public ActionResult Dashboard()
+        {
+            return View();
+        }
+
         public ActionResult MemberArea()
         {
             return View();
@@ -339,17 +344,17 @@ namespace BtcProApp.Controllers
                     string line10 = "<tr style='line-height:48px'><td colspan='2'></td><tr>";
                     string line11 = "<tr><td colspan='2'>Best regards,</td><tr>";
                     string line12 = "<tr><td colspan='2'>BTC Pro Inc.</td><tr>";
-                    string line13 = "<tr><td colspan='2'><a>support@btcpro.co</a></td><tr>";
-                    string line14 = "<tr><td colspan='2'><a>www.btcpro.co</a></td><tr>";
+                    string line13 = "<tr><td colspan='2'><a>support@amexbtc.com</a></td><tr>";
+                    string line14 = "<tr><td colspan='2'><a>www.amexbtc.com</a></td><tr>";
                     string line15 = "</table>";
                     string body = line0 + line1 + line2 + line3 + line4 + line5 + line8 + line9 + line10 + line11 + line12 + line13 + line14 + line15;
 
 
-                    string mail_from = "noreply@btcpro.co";
+                    string mail_from = "noreply@amexbtc.com";
                     string mail_to = reg.EmailId;
                     ArrayList arr = null;
                     string subj = "Forget Password mail";
-                    string mail_cc = "info@btcpro.co";
+                    string mail_cc = "info@amexbtc.com";
                     System.Collections.Hashtable ht = new System.Collections.Hashtable();
                     ht.Add("FROM", mail_from);
                     ht.Add("TO", mail_to);
@@ -3747,8 +3752,8 @@ namespace BtcProApp.Controllers
 
         private async Task<bool> SendEMail(string mail_to, string mail_cc, string subj, string desc, ArrayList arr)
         {
-            string mail_from = "noreply@btcpro.co";
-            string mail_ccc = "info@btcpro.co";
+            string mail_from = "noreply@amexbtc.com";
+            string mail_ccc = "info@amexbtc.com";
             System.Collections.Hashtable ht = new System.Collections.Hashtable();
             ht.Add("FROM", mail_from);
             ht.Add("TO", mail_to);
@@ -3775,7 +3780,7 @@ namespace BtcProApp.Controllers
         {
             string bodytext = "<table><tr><td>Full name</td><td>" + fullname + "</td></tr><tr><td>Phone No.</td><td>" + phone + "</td></tr><tr><td>Email</td><td>" + mailfrom + "</td></tr><tr><td>Country</td><td>" + country + "</td></tr><tr><td>Message</td><td>" + desc + "</td></tr></table>";
             string mail_from = mailfrom;
-            mail_to = "info@btcpro.co";
+            mail_to = "info@amexbtc.com";
             ArrayList arr = null;
             //string mail_cc = "";
             System.Collections.Hashtable ht = new System.Collections.Hashtable();
@@ -3807,29 +3812,29 @@ namespace BtcProApp.Controllers
             bool result = false;
             ArrayList array = new ArrayList();
             string body = "";
-            body = @"<table style='width:100%'>
+            body = @"<table style='width:50%;border:1px solid grey;padding:25px'>
                             <tr>
                              <td colspan='2'>
-                               <p style='text-align:left;font-size:14px;font-color:black;font-weight:600'> Greetings from BTC PRO INC!!!</p></td>
+                               <p style='text-align:left;font-size:14px;font-color:black;font-weight:600'> Greetings from AMEX BTC!!!</p></td>
                            </tr> 
                            <tr>
                               <td colspan='2'>
-                                <p style='text-align:justified;font-size:12px;'> Thanks for your interest in www.BtcPro.co. We wish you a prosperous association with us. The following are your credentials to get you started !!! </p>
+                                <p style='text-align:justified;font-size:12px;'> Thanks for your interest in www.AmexBtc.com. We wish you a prosperous association with us. The following are your credentials to get you started !!! </p>
                               </td>
                            </tr>
                            <tr>
-                             <td style='text-align:right;font-weight:600'>
+                             <td style='text-align:left;font-weight:600'>
                                 Date of Joining:
                              </td>
                              <td>" + reg.CreatedDate.ToLongDateString() + "</td>" +
                            "</tr>" +
                            "<tr>" +
-                             "<td style='text-align:right;font-weight:600'>Username:" +
+                             "<td style='text-align:left;font-weight:600'>Username:" +
                               "</td>" +
-                                "<td>" + reg.UserName + "</td></tr><tr><td style='text-align:right;font-weight:600'>Password:</td><td> " + reg.Password + " </td> " +
+                                "<td>" + reg.UserName + "</td></tr><tr><td style='text-align:left;font-weight:600'>Password:</td><td> " + reg.Password + " </td> " +
                                 "</tr>" +
-                                 "<tr><td style='text-align:right;font-weight:600'>Transaction Password:</td><td> " + reg.TrxPassword + " </td> " +
-                                "</tr><tr><td colspan='2' style='padding-top:15px'>All the best !!!</td></tr><tr><td colspan='2'>BtcPro Team</td></tr>" +
+                                 "<tr><td style='text-align:left;font-weight:600'>Transaction Password:</td><td> " + reg.TrxPassword + " </td> " +
+                                "</tr><tr><td colspan='2' style='padding-top:15px'>All the best !!!</td></tr><tr><td colspan='2'>AmexBtc Team</td></tr>" +
                                 "</table>";
             result = await SendEMail(reg.EmailId, "", "Registration Confirmation", body, array);
             return Json(new { status = "Success" }, JsonRequestBehavior.AllowGet);
@@ -3858,8 +3863,8 @@ namespace BtcProApp.Controllers
             string line9 = "<tr style='line-height:48px'><td colspan='2'></td><tr>";
             string line10 = "<tr><td colspan='2'>Best regards,</td><tr>";
             string line11 = "<tr><td colspan='2'>BTC Pro Inc.</td><tr>";
-            string line12 = "<tr><td colspan='2'><a>support@btcpro.co</a></td><tr>";
-            string line13 = "<tr><td colspan='2'><a>www.btcpro.co</a></td><tr>";
+            string line12 = "<tr><td colspan='2'><a>support@amexbtc.com</a></td><tr>";
+            string line13 = "<tr><td colspan='2'><a>www.amexbtc.com</a></td><tr>";
             string line14 = "</table>";
             string body = line0 + line1 + line2 + line3 + line4 + line5 + line6 + line7 + line8 + line9 + line10 + line11 + line12 + line13 + line14;
 
@@ -3889,8 +3894,8 @@ namespace BtcProApp.Controllers
             string line10 = "<tr style='line-height:48px'><td colspan='2'></td><tr>";
             string line11 = "<tr><td colspan='2'>Best regards,</td><tr>";
             string line12 = "<tr><td colspan='2'>BTC Pro Inc.</td><tr>";
-            string line13 = "<tr><td colspan='2'><a>support@btcpro.co</a></td><tr>";
-            string line14 = "<tr><td colspan='2'><a>www.btcpro.co</a></td><tr>";
+            string line13 = "<tr><td colspan='2'><a>support@amexbtc.com</a></td><tr>";
+            string line14 = "<tr><td colspan='2'><a>www.AmexBtc.com</a></td><tr>";
             string line15 = "</table>";
             string body = line0 + line1 + line2 + line3 + line4 + line5 + line6 + line7 + line8 + line9 + line10 + line11 + line12 + line13 + line14 + line15;
 
@@ -3919,8 +3924,8 @@ namespace BtcProApp.Controllers
             string line10 = "<tr style='line-height:48px'><td colspan='2'></td><tr>";
             string line11 = "<tr><td colspan='2'>Best regards,</td><tr>";
             string line12 = "<tr><td colspan='2'>BTC Pro Inc.</td><tr>";
-            string line13 = "<tr><td colspan='2'><a>support@btcpro.co</a></td><tr>";
-            string line14 = "<tr><td colspan='2'><a>www.btcpro.co</a></td><tr>";
+            string line13 = "<tr><td colspan='2'><a>support@amexbtc.com</a></td><tr>";
+            string line14 = "<tr><td colspan='2'><a>www.AmexBtc.com</a></td><tr>";
             string line15 = "</table>";
             string body = line0 + line1 + line2 + line3 + line4 + line5 + line6 + line7 + line8 + line9 + line10 + line11 + line12 + line13 + line14 + line15;
 
@@ -3949,8 +3954,8 @@ namespace BtcProApp.Controllers
             string line10 = "<tr style='line-height:48px'><td colspan='2'></td><tr>";
             string line11 = "<tr><td colspan='2'>Best regards,</td><tr>";
             string line12 = "<tr><td colspan='2'>BTC Pro Inc.</td><tr>";
-            string line13 = "<tr><td colspan='2'><a>support@btcpro.co</a></td><tr>";
-            string line14 = "<tr><td colspan='2'><a>www.btcpro.co</a></td><tr>";
+            string line13 = "<tr><td colspan='2'><a>support@amexbtc.com</a></td><tr>";
+            string line14 = "<tr><td colspan='2'><a>www.AmexBtc.com</a></td><tr>";
             string line15 = "</table>";
             string body = line0 + line1 + line2 + line3 + line4 + line5 + line6 + line7 + line8 + line9 + line10 + line11 + line12 + line13 + line14 + line15;
 
@@ -3991,8 +3996,8 @@ namespace BtcProApp.Controllers
             string line10 = "<tr style='line-height:48px'><td colspan='2'></td><tr>";
             string line11 = "<tr><td colspan='2'>Best regards,</td><tr>";
             string line12 = "<tr><td colspan='2'>BTC Pro Inc.</td><tr>";
-            string line13 = "<tr><td colspan='2'><a>support@btcpro.co</a></td><tr>";
-            string line14 = "<tr><td colspan='2'><a>www.btcpro.co</a></td><tr>";
+            string line13 = "<tr><td colspan='2'><a>support@amexbtc.com</a></td><tr>";
+            string line14 = "<tr><td colspan='2'><a>www.AmexBtc.com</a></td><tr>";
             string line15 = "</table>";
             string body = line0 + line1 + line2 + line3 + line4 + line5 + line6 + line7 + line8 + line9 + line10 + line11 + line12 + line13 + line14 + line15;
 

@@ -1,0 +1,179 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>AMEXBTC: Contact Us</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- global stylesheet -->
+    <link href="~/SiteAssets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/icommon.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="~/SiteAssets/css/style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="~/SiteAssets/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="~/SiteAssets/js/bootstrap.min.js"></script>
+    <script src="~/SiteAssets/js/jquery-latest.min.js"></script>
+    <script src="~/SiteAssets/js/script.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- header part -->
+    <header class="bg-inner">
+        <!-- logo/meu part -->
+        <div class="container">
+            <div class="logo-pt">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <h1><span>AMEX</span>BTC</h1>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <!--menu main-->
+                        <div id='cssmenu'>
+                            <ul>
+                                <li><a href='@Url.Action("Index","Home")'>Home</a></li>
+                                <li><a href='@Url.Action("AboutUs","Home")'>About Us</a></li>
+                                <li><a href='@Url.Action("Opportunity","Home")'>Opportunity</a></li>
+                                <li><a href='@Url.Action("ContactUs","Home")'>Contact Us</a></li>
+                                <li><a href='@Url.Action("Registration","Home")'>Registration</a></li>
+                                <li><a href='@Url.Action("Login","Home")'>Login</a></li>
+                            </ul>
+                        </div>
+                        <!--end menu main-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- heading part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <h3>Contact Support</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- welcome part -->
+    <section class="inner-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <p>For basic business building and first-line support, your referrer is best suited to provide the answers you need. You can contact Amexbtc support team by filling out the form below or by writing to support@wexplanet.com.</p>
+                    <h3>Wexco LLC</h3>
+                    <p>
+                        16192 Coastal Highway, Lewes<br>
+                        Delaware 19958, USA<br>
+                        Tel.: +1 (302) 364-0200
+                    </p>
+                    <p>
+                        Skype: amexbtc<br>
+                        E-mail: support@amexbtc.com
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <form id="form7" name="form7" method="post" action="send-email/" enctype="multipart/form-data">
+                        <div class="col-sm-6">
+                            <input name="tbName" type="text" id="tbName" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbPhone" type="text" required="" pattern="[0-9]+" title="Only Number is Allowed.." id="tbPhone" placeholder="Phone No" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbEmail" type="email" id="tbEmail" placeholder="Email ID" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Subject" class="form-control">
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea cols="10" rows="5" type="text" name="tbMessage" id="tbMessage" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn-read-more">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end welcome part -->
+    <!-- join part -->
+    <section class="login-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 text-center">
+                    <h1>Bringing cryptocurrency to the real world</h1>
+                    <p><a href='@Url.Action("Registration","Home")' class="btn btn-default">Join For Free</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="foot-pnl">
+                        <h3>POLICIES</h3>
+                        <ul>
+                            <li><a href='@Url.Action("TermsAndConditions","Home")'>Terms and Conditions</a></li>
+                            <li><a href='@Url.Action("Compensation","Home")'>Compensation Plan</a></li>
+                            <li><a href='@Url.Action("CookiePolicy","Home")'>Cookie Policy</a></li>
+                            <li><a href='@Url.Action("PrivacyPolicy","Home")'>Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <form id="form7" name="form7" method="post" action="send-email/" enctype="multipart/form-data">
+                        <div class="col-sm-6">
+                            <input name="tbName" type="text" id="tbName" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbPhone" type="text" required="" pattern="[0-9]+" title="Only Number is Allowed.." id="tbPhone" placeholder="Phone No" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="tbEmail" type="email" id="tbEmail" placeholder="Email ID" class="form-control">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Subject" class="form-control">
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea cols="5" rows="3" type="text" name="tbMessage" id="tbMessage" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-2 col-sm-offset-1 col-md-offset-1">
+                    <div class="foot-pnl">
+                        <h2>PAYMENT METHOD</h2>
+                        <p><img src="~/SiteAssets/images/payment.png" alt="payment" class="img-responsive"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- copyright part -->
+    <section class="copyright">
+        Copyright © 2017, All Rights Reserved By Amexbtc.
+    </section>
+
+
+
+</body>
+</html>
+

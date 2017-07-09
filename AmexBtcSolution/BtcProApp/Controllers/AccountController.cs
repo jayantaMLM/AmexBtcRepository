@@ -469,7 +469,7 @@ namespace BtcProApp.Controllers
             Session.Clear();
             Session.Abandon();
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            return RedirectToAction("Indexmain", "Home");
+            return RedirectToAction("Index", "Home");
         }
 
         //

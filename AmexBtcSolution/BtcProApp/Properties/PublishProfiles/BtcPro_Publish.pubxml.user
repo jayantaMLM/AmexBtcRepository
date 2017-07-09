@@ -6,11 +6,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Development\PublishBTCPRO</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Development\PublishAMEXBTC</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="404.html">
-      <publishTime>04/23/2017 15:08:41</publishTime>
+      <publishTime>07/08/2017 14:11:30</publishTime>
     </File>
     <File Include="500.html">
       <publishTime>04/23/2017 15:08:41</publishTime>
@@ -79,7 +79,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/14/2017 08:44:27</publishTime>
     </File>
     <File Include="app/scripts/RegistrationController.js">
-      <publishTime>07/04/2017 23:54:25</publishTime>
+      <publishTime>07/09/2017 10:11:22</publishTime>
     </File>
     <File Include="app/scripts/ReserveIncomeWalletController.js">
       <publishTime>06/25/2017 17:44:48</publishTime>
@@ -121,7 +121,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2017 14:56:48</publishTime>
     </File>
     <File Include="bin/BtcProApp.dll">
-      <publishTime>07/07/2017 18:02:33</publishTime>
+      <publishTime>07/09/2017 12:54:11</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>04/23/2017 14:56:34</publishTime>
@@ -333,6 +333,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="chartjs.html">
       <publishTime>04/23/2017 15:08:41</publishTime>
     </File>
+    <File Include="Content/AmexBtc.png">
+      <publishTime>07/09/2017 10:21:04</publishTime>
+    </File>
     <File Include="Content/angular-material.css">
       <publishTime>04/23/2017 19:21:00</publishTime>
     </File>
@@ -358,7 +361,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/03/2017 13:07:39</publishTime>
     </File>
     <File Include="Content/attachment.pdf">
-      <publishTime>06/14/2017 14:10:03</publishTime>
+      <publishTime>07/09/2017 01:27:14</publishTime>
     </File>
     <File Include="Content/avatar1.jpg">
       <publishTime>05/08/2017 00:45:54</publishTime>
@@ -469,7 +472,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/07/2015 10:59:42</publishTime>
     </File>
     <File Include="css/style.css">
-      <publishTime>06/11/2017 18:52:51</publishTime>
+      <publishTime>07/09/2017 10:31:08</publishTime>
     </File>
     <File Include="css/table-responsive.css">
       <publishTime>07/07/2015 10:59:42</publishTime>
@@ -4114,7 +4117,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2017 15:08:41</publishTime>
     </File>
     <File Include="login.html">
-      <publishTime>04/29/2017 11:04:19</publishTime>
+      <publishTime>07/09/2017 01:28:38</publishTime>
     </File>
     <File Include="mail.html">
       <publishTime>04/23/2017 15:08:41</publishTime>
@@ -4309,7 +4312,232 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/23/2017 08:24:08</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>07/05/2017 00:37:41</publishTime>
+      <publishTime>07/08/2017 23:25:52</publishTime>
+    </File>
+    <File Include="SiteAssets/css/bootstrap.css">
+      <publishTime>07/08/2017 22:51:33</publishTime>
+    </File>
+    <File Include="SiteAssets/css/flexslider.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/css/font-awesome.min.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/css/icommon.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/css/index.html">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/css/menu.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/css/slider.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/css/style.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fancy-box/index.html">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fancy-box/jquery.fancybox.css">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fancy-box/jquery.fancybox.js">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/fontawesome-webfont.eot">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/fontawesome-webfont.svg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/fontawesome-webfont.woff">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/fontawesome-webfont.woff2">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/FontAwesome.otf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/futura-book-bt-58eb21faaff6d.woff">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/futura-book-bt-58eb21faaff6d.woff2">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/futura-lt-heavy-58eb21d1bca11.woff">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/futura-lt-heavy-58eb21d1bca11.woff2">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/IcoMoon-Free.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/index.html">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/Nunito-Black.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/Nunito-Bold.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/Nunito-ExtraBold.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/Nunito-Light.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/fonts/Nunito-Regular.ttf">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/About-Image.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/background.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/BotDetectCaptcha.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/graph.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/icon-1.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/icon-2.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/icon-3.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/icon-4.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/Icons-1.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/Icons-2.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/Icons-3.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/Icons-4.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/Icons-5.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/inner-banner.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/join-bg.jpg">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/logo.png">
+      <publishTime>07/08/2017 22:51:34</publishTime>
+    </File>
+    <File Include="SiteAssets/images/management.png">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/images/payment.png">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/images/testimonial-bg.jpg">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/images/user.png">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/images/userpic.png">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/images/welcome-bg.jpg">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/bootstrap.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/bootstrap.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/custom.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/index.html">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery-1.12.2.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery-1.9.1.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery-2.2.4.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery-latest.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery-latest.pack.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.easing.1.3.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.easing.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.easy-ticker.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.flexslider-min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.flexslider.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jquery.lush.min.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/jQuery.scrollText.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/main.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/plugin.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
+    </File>
+    <File Include="SiteAssets/js/script.js">
+      <publishTime>07/08/2017 22:51:35</publishTime>
     </File>
     <File Include="slider.html">
       <publishTime>04/23/2017 15:08:41</publishTime>
@@ -4534,10 +4762,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2017 14:56:34</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>05/21/2017 09:57:37</publishTime>
+      <publishTime>07/09/2017 01:34:22</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>05/26/2017 13:53:27</publishTime>
+      <publishTime>07/09/2017 01:34:39</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
       <publishTime>04/23/2017 14:56:34</publishTime>
@@ -4557,6 +4785,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/About.cshtml">
       <publishTime>04/23/2017 14:56:25</publishTime>
     </File>
+    <File Include="Views/Home/AboutUs.cshtml">
+      <publishTime>07/09/2017 00:42:08</publishTime>
+    </File>
     <File Include="Views/Home/AccountStatus.cshtml">
       <publishTime>07/04/2017 07:34:35</publishTime>
     </File>
@@ -4575,8 +4806,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/ChangeTrnPassword.cshtml">
       <publishTime>06/26/2017 23:31:17</publishTime>
     </File>
+    <File Include="Views/Home/Compensation.cshtml">
+      <publishTime>07/09/2017 00:46:58</publishTime>
+    </File>
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>05/07/2017 18:55:06</publishTime>
+    </File>
+    <File Include="Views/Home/ContactUs.cshtml">
+      <publishTime>07/09/2017 00:41:40</publishTime>
+    </File>
+    <File Include="Views/Home/CookiePolicy.cshtml">
+      <publishTime>07/09/2017 00:55:32</publishTime>
+    </File>
+    <File Include="Views/Home/Dashboard.cshtml">
+      <publishTime>07/09/2017 10:05:23</publishTime>
     </File>
     <File Include="Views/Home/Earnings.cshtml">
       <publishTime>04/25/2017 22:24:07</publishTime>
@@ -4603,13 +4846,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/11/2017 18:36:22</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>06/26/2017 11:40:03</publishTime>
+      <publishTime>07/09/2017 00:41:11</publishTime>
     </File>
     <File Include="Views/Home/IndexMain.cshtml">
-      <publishTime>06/14/2017 14:16:31</publishTime>
+      <publishTime>07/09/2017 09:48:39</publishTime>
     </File>
     <File Include="Views/Home/Invoices.cshtml">
       <publishTime>04/25/2017 22:22:10</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>07/09/2017 09:56:53</publishTime>
     </File>
     <File Include="Views/Home/Logout.cshtml">
       <publishTime>04/25/2017 22:27:00</publishTime>
@@ -4638,6 +4884,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/Notifications.cshtml">
       <publishTime>04/25/2017 22:26:47</publishTime>
     </File>
+    <File Include="Views/Home/Opportunity.cshtml">
+      <publishTime>07/09/2017 00:42:47</publishTime>
+    </File>
     <File Include="Views/Home/OrderHistory.cshtml">
       <publishTime>04/25/2017 22:21:56</publishTime>
     </File>
@@ -4647,11 +4896,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/PayoutByAdmin.cshtml">
       <publishTime>06/25/2017 09:15:36</publishTime>
     </File>
+    <File Include="Views/Home/PrivacyPolicy.cshtml">
+      <publishTime>07/09/2017 00:54:15</publishTime>
+    </File>
     <File Include="Views/Home/ProcessSupportTickets.cshtml">
       <publishTime>07/07/2017 17:49:41</publishTime>
     </File>
     <File Include="Views/Home/ReferralLink.cshtml">
       <publishTime>06/14/2017 09:24:48</publishTime>
+    </File>
+    <File Include="Views/Home/Registration.cshtml">
+      <publishTime>07/09/2017 12:17:43</publishTime>
     </File>
     <File Include="Views/Home/ReserveWallet.cshtml">
       <publishTime>06/25/2017 17:46:42</publishTime>
@@ -4670,6 +4925,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Home/TeamStructureNew.cshtml">
       <publishTime>06/27/2017 08:38:36</publishTime>
+    </File>
+    <File Include="Views/Home/TermsAndConditions.cshtml">
+      <publishTime>07/09/2017 00:53:36</publishTime>
     </File>
     <File Include="Views/Home/Tickets.cshtml">
       <publishTime>07/07/2017 17:42:53</publishTime>
@@ -4720,7 +4978,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/23/2017 08:01:11</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/06/2017 00:21:56</publishTime>
+      <publishTime>07/09/2017 10:34:44</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>04/23/2017 14:56:34</publishTime>
@@ -4735,7 +4993,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2017 18:37:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/05/2017 01:08:50</publishTime>
+      <publishTime>07/09/2017 12:54:14</publishTime>
     </File>
     <File Include="widget.html">
       <publishTime>04/23/2017 15:08:41</publishTime>

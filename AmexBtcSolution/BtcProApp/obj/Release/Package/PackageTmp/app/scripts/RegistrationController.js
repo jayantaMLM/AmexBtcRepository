@@ -431,9 +431,10 @@ module.controller('Register', function ($scope, $http, $location, $mdDialog) {
         $http.post("/Account/UserLogin?Username=" + $scope.loginModel.UserName + "&Password=" + $scope.loginModel.Password).then(function (resp) {
             if (resp.data.Status) {
                 $scope.loginErrModel.Password = "";
-                var path = $location.path("Home/Index");
+                debugger;
+                var path = $location.path("Home/Dashboard");
                 var abspath = path.$$absUrl;
-                var modifiedpath = abspath.replace("#/", "");
+                var modifiedpath = abspath.replace("Home/Login#/", "");
                 window.location = modifiedpath;
             } else {
                 $scope.loginErrModel.Password = "Invalid Password";
